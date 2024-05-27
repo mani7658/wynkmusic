@@ -1,0 +1,64 @@
+/* CSS for Customer Home page */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/musictune.png');
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Styles for non-premium users */
+.non-premium {
+    display: block; /* or display: inline-block; depending on your layout */
+    margin-top: 20px; /* adjust as needed */
+}
+
+.non-premium form {
+    margin-bottom: 10px; /* adjust as needed */
+}
+
+.non-premium input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.non-premium input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Styles for premium users */
+.premium {
+    display: none; /* initially hidden */
+}
+
+.premium table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.premium th, .premium td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.premium th {
+    background-color: #f2f2f2;
+}
+
+/* Audio controls */
+audio {
+    width: 100%;
+    margin-top: 5px;
+}
+

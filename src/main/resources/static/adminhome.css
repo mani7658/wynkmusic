@@ -1,0 +1,25 @@
+form{
+margin-top:5%;
+	height: 21%;
+}
+input {
+	width: 20%;
+	padding: 10px;
+	margin-left: 2%;
+	background-color:ivory;
+	color: blue;
+	border-color: red;
+	cursor: pointer;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input:hover{
+	background-color: green;
+}
+
+body{
+	background-image: url('images/musictune.png');
+	background-size: cover;
+}

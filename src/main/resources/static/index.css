@@ -1,0 +1,37 @@
+body {
+    background-image: url('images/musictune.png');
+    background-size: cover;
+    background-position: center;
+    background-color: green;
+    font-family: Arial, sans-serif; /* Default font family */
+    margin: 10%; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+p{
+	font-size:30px;
+	color: red;
+	font-family:MV Boli}
+
+.center {
+    text-align: center;
+    margin-left:1% /* Adjust as needed to center content vertically */
+}
+
+.button {
+    background-color: yellow;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family:oswald;
+    font-size: 16px;
+    
+    cursor: pointer;
+    border-radius: 44px;
+    color:black;
+}
+
+.button:hover {
+    background-color: #26156a;
+}

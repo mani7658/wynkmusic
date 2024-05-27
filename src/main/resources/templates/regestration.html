@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="ISO-8859-1">
+    <title>Icons Example</title>
+     <link rel="stylesheet" href="register.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form method="post" action="/registration">
+        <h1>Registration</h1>
+        <table>
+          <tr>
+            <td>
+              <div class="input-box">
+                <input
+                  type="text"
+                  placeholder="Enter Username"
+                  name="username"
+                  required
+                />
+                <i class="fas fa-user" style="color:blue"></i>
+              </div>
+            </td>
+            <td>
+              <div class="input-box">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter email"
+                  required
+                />
+                <i class="fas fa-envelope" style="color:blue"></i>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="input-box">
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Enter password"
+                  required
+                />
+                <i class="fas fa-lock" style="color:blue"></i>
+              </div>
+            </td>
+            <td>
+              <div class="input-box">
+                <input
+                  type="tel"
+                  name="number"
+                  placeholder="Enter number"
+                  required
+                />
+                <i class="fas fa-list-ol" style="color:blue"></i>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Gender</label></td>
+
+            <td>
+              <input type="radio" name="gender" value="male" />male
+              <input type="radio" name="gender" value="female" />female
+              <input type="radio" name="gender" value="other" />others
+              <br /><br />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Role</label></td>
+
+            <td>
+              <input type="radio" name="role" value="Admin" />Admin
+              <input type="radio" name="role" value="Customer" />Customer
+              <br /><br />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Addres</label></td>
+
+            <td>
+              <textarea
+                id="textarea"
+                rows="3"
+                col="4"
+                name="adderess"
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+
+        <button type="submit" class="btn">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
